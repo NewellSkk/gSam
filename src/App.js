@@ -1,5 +1,6 @@
 import './App.css';
 
+
 let Landing = ()=>{
  
   return(
@@ -9,7 +10,7 @@ let Landing = ()=>{
       <h1 className='m-16 md:my-32 text-4xl md:text-5xl font-bold text-blue-950 bg-opacity-40 bg-slate-300'>GSAM Integrated,<br/> Excellent <span className='text-orange-500 font-extrabold'>Construction Solutions</span> For Your Unique Needs</h1>
     </div>
     <div className='w-full order-1 md:w-1/2 md:order-2 flex justify-center'>
-        <img src='/logo.svg' alt='' className='bg-opacity-60 bg-orange-300 md:bg-opacity-0'></img>
+        <img src='/logo.svg' alt='' className='bg-opacity-60 bg-blue-200 md:bg-opacity-0'></img>
       </div>
    
      </div>
