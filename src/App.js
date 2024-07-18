@@ -8,16 +8,14 @@ import Landing from './Landing';
 let App = () => {
 
   return (
-    <Router>
-      <div className='App'>
+    <div className='App'>
+      <Router>
         <Routes>
           <Route exact path='/' Component={Landing} />
         </Routes>
-      </div>
-    </Router>
-    // <div className='w-full'>
-    //   <Landing/>
-    // </div>
+      </Router>
+    </div>
+  
   )
 }
 
