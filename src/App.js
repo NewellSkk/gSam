@@ -11,7 +11,7 @@ let App = () => {
     <div className='App'>
       <Router>
         <Routes>
-          <Route exact path='/' Component={Landing} />
+          <Route exact path='/' element={<Landing/>} />
         </Routes>
       </Router>
     </div>
